@@ -1,0 +1,7 @@
+{
+  "editor.formatOnSave": true,
+  "eslint.packageManager": "npm",
+  "files.exclude": {
+    "node_modules": true
+  }
+}
