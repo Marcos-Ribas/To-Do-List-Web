@@ -9,25 +9,25 @@
 </head>
 
 <body>
-    <h1>Cadastro de Usuários!</h1>
-    <p>Informe as informações do usuário nos campos abaixo.</p>
+    <h1>Cadastro de uma nova Task!</h1>
 
-    <form id="formUser">
-        <label>Nome: <input type="text" name="nome" required> </label><br>
-        <label>E-mail: <input type="email" name="email" required> </label><br>
-        <label>Idade: <input type="number" name="idade" required> </label><br>
+    <form id="formTask">
+        <label>Titulo: <input type="text" name="titulo" required> </label><br>
+        <label>Descrição: <input type="text" name="descricao"> </label><br>
         <button type="submit">Salvar</button>
     </form>
     <div id="mensagem"></div>
 
-    <p>Exibir Usuários</p>
-    <button id="btnShow" type="button">Exibir todos os usuários</button>
-    <table id="tabelaUsuarios" style="display: none; margin-top: 1rem; width: 100%; border-collapse: collapse;">
+    <p>Exibir Tasks</p>
+    <button id="btnShow" type="button">Exibir todas as Tasks</button>
+    <table id="tabelaTasks" style="display: none; margin-top: 1rem; width: 100%; border-collapse: collapse;">
         <thead>
           <tr>
-            <th style="border: 1px solid #ccc; padding: 0.5rem;">Nome</th>
-            <th style="border: 1px solid #ccc; padding: 0.5rem;">Email</th>
-            <th style="border: 1px solid #ccc; padding: 0.5rem;">Idade</th>
+            <th style="border: 1px solid #ccc; padding: 0.5rem;">Titulo</th>
+            <th style="border: 1px solid #ccc; padding: 0.5rem;">Descrição</th>
+            <th style="border: 1px solid #ccc; padding: 0.5rem;">Data</th>
+            <th style="border: 1px solid #ccc; padding: 0.5rem;">Status</th>
+            <th style="border: 1px solid #ccc; padding: 0.5rem;">Excluir Task</th>
           </tr>
         </thead>
         <tbody></tbody>

@@ -3,5 +3,6 @@
   "eslint.packageManager": "npm",
   "files.exclude": {
     "node_modules": true
-  }
+  },
+  "java.configuration.updateBuildConfiguration": "interactive"
 }
